@@ -1,6 +1,7 @@
 body{
    margin: 0;
    padding: 0;
+   font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
 .header-simulador{
@@ -9,6 +10,7 @@ body{
     align-items: center;
     min-height:56px;
     background-color: rgb(246, 246, 246);
+
 }
 
 .header-simulador span{
@@ -22,11 +24,15 @@ body{
     color: rgb(110, 10, 214);
 }
 
+.header-simulador p{
+    padding: 20px;
+}
+
 /*CABEÇALHO PRINCIPAL*/
 
 header{
     height: 81px;
-    background-color: brown;
+    border-bottom: 1px solid black;
 }
 
 .header-container{
@@ -35,5 +41,23 @@ header{
     max-width: 1272px;
     height: 81px;
     margin: auto;
-    background-color: cadetblue;
+}
+
+.header-container a{
+    text-decoration: none;
+    margin-left:32px;
+    color: rgb(74, 74, 74);
+}
+
+/*MENU-HEADER*/
+
+.nav-mobile{
+    display: none;
+    margin-right:16px;
+    position:relative;
+}
+.nav-header{
+    display: flex;
+    justify-content:flex-end;
+    width: 1092px;
 }
