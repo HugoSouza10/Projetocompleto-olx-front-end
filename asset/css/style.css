@@ -2,3 +2,38 @@ body{
    margin: 0;
    padding: 0;
 }
+
+.header-simulador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:56px;
+    background-color: rgb(246, 246, 246);
+}
+
+.header-simulador span{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.header-simulador span a{
+    text-decoration: none;
+    color: rgb(110, 10, 214);
+}
+
+/*CABEÇALHO PRINCIPAL*/
+
+header{
+    height: 81px;
+    background-color: brown;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    max-width: 1272px;
+    height: 81px;
+    margin: auto;
+    background-color: cadetblue;
+}
