@@ -106,3 +106,34 @@ body{
     position:relative;
 }
 
+
+/*BODY iza-top: CONTEÚDO DO TOP*/
+
+.iza-top{
+    background-color: #6e0ad6;
+    max-width:100vw;
+}
+.iza-container-container{
+    max-width: 1185px;
+    margin: auto;
+    background-color: peru;
+}
+
+/*INPUT DE PESQUISAR*/
+
+.combobox{
+    display: flex;
+    width: 100%;
+    background-color: purple;
+    max-width: 100%;
+    height: 80px;
+}
+
+.combobox input{
+    width: 100%;
+}
+
+.searchWrapBox{
+    display: flex;
+}
+
