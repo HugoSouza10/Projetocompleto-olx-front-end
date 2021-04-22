@@ -4,6 +4,7 @@ body{
    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
+/*HEADER SIMULATOR*/
 .header-simulador{
     display: flex;
     justify-content: center;
@@ -28,14 +29,18 @@ body{
     padding: 20px;
 }
 
-/*CABEÇALHO PRINCIPAL*/
 
-header{
+
+/*HEADER MAIN*/
+
+.header-main{
     height: 81px;
     border-bottom: 1px solid black;
 }
 
-.header-container{
+
+
+.header-main-container{
     display: flex;
     align-items: center;
     max-width: 1272px;
@@ -43,21 +48,61 @@ header{
     margin: auto;
 }
 
-.header-container a{
+.header-main-container a{
     text-decoration: none;
     margin-left:32px;
     color: rgb(74, 74, 74);
 }
 
-/*MENU-HEADER*/
+/*MENU*/
 
-.nav-mobile{
-    display: none;
-    margin-right:16px;
-    position:relative;
-}
-.nav-header{
+.nav-header-main{
     display: flex;
     justify-content:flex-end;
     width: 1092px;
 }
+
+.nav-main{
+    display: flex;
+    align-items: center;
+}
+
+/*cor do item do menu*/
+.item-li-main{
+    color:#4a4a4a;
+}
+
+.nav-main span svg:hover path {
+    fill: #fce57e;
+}
+
+ .link-menu-main{
+     display: flex;
+     align-items: center;
+ }
+
+.link-menu-main span{
+    width: 20px;
+     margin-right: 10px;
+}
+
+.anunciar{
+    background-color:rgb(247, 131, 35);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius:15px;
+    width: 120px;
+    text-align: center;
+    margin-left: 24px;
+}
+
+.anunciar:hover{
+    background-color:orange;
+}
+.nav-mobile-main{
+    display: none;
+    margin-right:16px;
+    position:relative;
+}
+
