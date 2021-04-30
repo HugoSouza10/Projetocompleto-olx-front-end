@@ -202,13 +202,15 @@ body{
 .multiGallery{
     display: grid;
     grid-template-columns: repeat(6,1fr);
+    grid-gap:35px;
 }
 
 .item-img-multiGallery{
     display: flex;
     justify-content: center;
-    background-color: brown;
+    background-color: rgb(229, 229, 229);
     height: 120px;
+    border-radius: 8px;
 }
 
 .item-img-multiGallery img{
@@ -219,6 +221,7 @@ body{
 
 .item-multiGallery-title{
     color: rgb(74, 74, 74);
-    line-height: 33px;
+    line-height: 23px;
+    margin-bottom: 5px;
     font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
 }
