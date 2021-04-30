@@ -4,6 +4,13 @@ body{
    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
+
+/*Container geral*/
+.container-main{
+    max-width: 1185px;
+    margin: auto;
+}
+
 /*HEADER SIMULATOR*/
 .header-simulador{
     display: flex;
@@ -107,15 +114,11 @@ body{
 }
 
 
-/*BODY iza-top: CONTEÚDO DO TOP*/
+/*HEADER iza-top: CONTEÚDO DO TOP*/
 
 .iza-top{
     background-color: #6e0ad6;
     max-width:100vw;
-}
-.iza-container-container{
-    max-width: 1185px;
-    margin: auto;
 }
 
 /*INPUT DE PESQUISAR*/
@@ -187,3 +190,35 @@ body{
     margin-bottom: 10px;
 }
 
+
+/*BODY PRODUCTS RECENTES*/
+
+.title-announcement{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.multiGallery{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.item-img-multiGallery{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    height: 120px;
+}
+
+.item-img-multiGallery img{
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.item-multiGallery-title{
+    color: rgb(74, 74, 74);
+    line-height: 33px;
+    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+}
